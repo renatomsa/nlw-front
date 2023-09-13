@@ -107,7 +107,8 @@ export function App() {
 
             <div className="space-y-4">
               <Label>Temperatura</Label>
-              <Slider 
+              <Slider
+                className="cursor-pointer"
                 min={0}
                 max={1}
                 step={0.1}
